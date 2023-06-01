@@ -1,0 +1,27 @@
+:root[data-theme="light"] {
+    --focus-bg: #FFF2F2;
+    --short-bg: #F2FFF5;
+    --long-bg: #F2F9FF;
+
+    --focus-span: #471515;
+    --short-span: #14401D;
+    --long-span: #153047;
+
+    --input-border-color: rgba(0, 0, 0, 0.15);
+
+    --switch-bg-color: rgba(0, 0, 0, 0.24);
+}
+
+:root[data-theme="dark"] {
+    --focus-bg: #0D0404;
+    --short-bg: #040D06;
+    --long-bg: #04090D;
+
+    --focus-span: #FFF2F2;
+    --short-span: #F2FFF5;
+    --long-span: #F2F9FF;
+
+    --input-border-color: rgba(255, 255, 255, 0.15);
+
+    --switch-bg-color: rgba(255, 255, 255, 0.24);
+}
